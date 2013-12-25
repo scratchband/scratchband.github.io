@@ -1,0 +1,66 @@
+﻿/* ************************************ */
+/*					*/
+/*	Scratchband			*/
+/*			 2010.xx.xx	*/
+/*	http://scratchband.net/		*/
+/*					*/
+/*	Cascading Style Sheets		*/
+/*					*/
+/* ************************************ */
+
+*	{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 100%;
+	border: none;
+	}
+
+body	{
+	border-top:9px solid #787878;
+	}
+
+#wrap	{
+	margin: 0px auto;
+	width: 940px;
+	}
+
+#header	{
+	padding-top:20px;
+	}
+
+#contents{
+	line-height:1.5;
+	width:800px;
+	margin:50px auto 0 auto;
+	}
+
+#contents h2{
+	text-align:center;
+	margin-bottom:50px;
+	}
+
+#contents h3{
+	font-size: 24px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:8px;
+	padding-left:6px;
+	border-bottom:1px dotted #000000;
+	border-left:8px solid #000000
+	}
+#contents h4{
+	text-align:center;
+	margin:15px 0;
+	}
+#contents p{
+	font-size: 18px;
+	}
+#footer{
+	margin:30px 0;
+	text-align:right;
+	padding-right:100px;
+	text-size:14px;
+	}
+}

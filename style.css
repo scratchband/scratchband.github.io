@@ -1,0 +1,255 @@
+﻿/* ************************************ */
+/*					*/
+/*	Scratchband			*/
+/*			 2010.xx.xx	*/
+/*	http://scratchband.net/		*/
+/*					*/
+/*	Cascading Style Sheets		*/
+/*					*/
+/* ************************************ */
+
+*	{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 100%;
+	border: none;
+	}
+
+body	{
+	color: #000000;
+	background-image:url(bg_stripe.png);
+	background-repeat: repeat;
+	}
+
+p,dt,dd	{
+	line-height: 1.5;
+	}
+
+.body_assist{
+	width:100%;
+	background-image:url(headerbg.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+	}
+
+#wrap	{
+	width: 928px;
+	margin: 0px auto;
+	}
+
+/*--------------------------------*/
+/*-------------header-------------*/
+/*--------------------------------*/
+
+#header	{
+	height:298px;
+	background-image:url(bg40.png);
+	background-repeat: y-repeat;
+	padding: 0 20px;
+	}
+
+#header img{
+	float: left;
+	position: relative;
+	left:35px;
+	top:79px;
+	}
+
+#navigation{
+	position: relative;
+	left:233px;
+	top:98px;
+	height:30px;
+	width:600px;
+	}
+
+#navigation li{
+	float:left;
+	height:30px;
+	padding:0px;
+	}
+
+#navigation li a{
+	display: block;
+	}
+
+
+/*--------------------------------*/
+/*--------------main--------------*/
+/*--------------------------------*/
+
+#space	{
+	background-image: url(bg20.png);
+	background-repeat: y-repeat;
+	}
+
+#main	{
+	float: left;
+	width: 650px;
+	margin:18px 10px 0px 34px;
+	}
+
+#main h1{
+	margin-bottom:30px;
+	}
+.enfasiz{
+	font-weight:bolder;
+	}
+
+.section{
+	margin-bottom:20px;
+	font-size:14px;
+	color:#222;
+	}
+
+#siteopen{
+	margin-bottom:60px;
+	width:620px;
+	font-size: 16px; 
+	line-height:1.75;
+	text-align: justify;
+	}
+#siteopen h2{
+	margin-bottom:5px;
+	}
+
+.section p{
+	text-align: justify;
+	}
+
+.section h2{
+	margin-bottom:5px;
+	}
+
+#home_d{
+	float:left;
+	width: 210px;
+	margin-right:10px;
+	}
+
+#home_ri{
+	float:left;
+	width: 210px;
+	}
+
+
+#side	{
+	float: left;
+	width: 200px;
+	background-image:url(sidebg.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	padding-top:108px;
+	}
+
+#localnavi h2	{
+	background-color:#a88ff5;
+	width:170px;
+	padding:10px 10px 10px 20px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.2;	
+	}
+
+#localnavi ul	{
+	line-height:1.2;	
+	}
+
+#localnavi ul li{
+	border-bottom:1px solid #a88ff5;
+	}	
+#localnavi ul li a{
+	display: block;
+	width:200px;
+	padding:8px 10px 8px 20px;
+	background-image: url(locallist.gif);
+	background-position: 8px 13px;
+	background-repeat: no-repeat;
+	color:#449;
+	text-decoration:none;
+	}
+
+#localnavi ul li a:hover,#localnavi ul li a:focus{
+	background-image: url(locallist.gif);
+	background-position: 10px 13px;
+	background-repeat: no-repeat;
+	color:#999;
+	text-decoration:none;
+	}
+
+
+/*--------------------------------*/
+/*---------member_profile---------*/
+/*--------------------------------*/
+
+.profile_box{
+	float:left;
+	width:280px;
+	height:200px;
+	margin:10px 7px;
+	border:2px solid #bfbfbf;
+	padding:10px;
+	}
+
+.member_profile1{
+	margin-bottom:10px;
+	height:96px;
+	}
+
+.member_profile1 h3{
+	line-height:1.75;
+	font-size:24px;
+	}
+
+.member_profile1 ul li{
+	line-height:0;
+	}
+.member_profile1 ul li a{
+	line-height:1.5;
+	text-decoration:none;
+	font-weight:bold;
+	color:#f60;
+	}
+
+.member_profile1 ul li a:hover{
+	text-decoration:underline;
+	color:#f93;
+	}
+
+.site{
+	font-size:14px;
+	}
+
+.site_s{
+	font-size:11px;
+	}
+
+.member_icon{
+	float:left;
+	weight:96px;
+	height:96px;
+	margin-right:11px;
+	}
+
+.member_profile2{
+	line-height:1.5;
+	padding-top:10px;
+	border-top:1px solid #d9d9d9;
+	}
+
+/*--------------------------------*/
+/*-------------footer-------------*/
+/*--------------------------------*/
+
+#copylight{
+	clear:both;
+	width:100%;
+	padding-top:30px;
+	padding-bottom:50px;	
+	color:#666;
+	font-size:11px;
+	text-align:center;
+	}
